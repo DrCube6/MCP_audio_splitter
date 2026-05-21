@@ -49,8 +49,8 @@ A limitation of this method is the inability to fade audio precisely. Instead, w
 * Go to "example_datapack/data/gd/function/music" and place the generated .mcfunction file from the Python script.
 * Make sure the music folder, in this case, is renamed to the <track_type> that you chose during the generation phase. Whether that be music, ambient, or any other category you might want to add.
 * Finally, go to the "example_datapack/data/gd/function/loaders/music.mcfunction" file and change or add the generated .mcfunction file's path to this list. For example, "execute if score timer music matches 0 if score track music matches 2 run function gd:music/my_new_track_02"
-* To start a track, use the start_my_new_track.mcfunction file.
-* To stop a track, use the stop_my_new_track.mcfunction file.
+* To start a track, explore the start_my_new_track.mcfunction file. Make sure, if you added a new track, (i.e. my_new_track_02) and changed the "track music" scoreboard to 2, you need to make sure to also set "track music" to 2 in the start function to target the right track (i.e., scoreboard players set track music 1, 2, 3...)
+* To stop a track, use the stop_my_new_track.mcfunction file or use "scoreboard players set track music 0"
 
 ### Multi-layered tracks
 This feature is incredibly useful if you want to toggle multiple instruments on or off while a song is playing. 
