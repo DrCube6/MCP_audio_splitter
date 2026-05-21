@@ -3,6 +3,7 @@ scoreboard objectives add gd dummy
 
 #loaders
 scoreboard objectives add music dummy
+scoreboard objectives add ambient dummy
 
 #music variables
 scoreboard players set pause music 0
@@ -13,3 +14,9 @@ scoreboard players set layer_1 music 0
 scoreboard players set layer_2 music 0
 scoreboard players set layer_3 music 0
 scoreboard players set segment music 1
+
+#ambient variables
+scoreboard players set pause ambient 0
+scoreboard players set timer ambient 0
+scoreboard players set track ambient 0
+scoreboard players set segment ambient 1
