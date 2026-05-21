@@ -64,4 +64,4 @@ This feature supports a maximum of 4 individual layers. First, render the song w
 * Once this is complete, you can control the layers through these commands:
 * **On**: "scoreboard players set layer_0 music 1"
 * **Off**: "scoreboard players set layer_0 music 0"
-* Available layers: "layer_0", "layer_1", ... "layer_2"
+* Available layers: "layer_0", "layer_1", ... "layer_3"
