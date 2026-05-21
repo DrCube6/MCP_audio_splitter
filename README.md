@@ -58,7 +58,7 @@ This feature is incredibly useful if you want to toggle multiple instruments on 
 
 
 This feature supports a maximum of 4 individual layers. First, render the song with your instruments separated into individual .mp3 files. Put all .mp3 files into the Python script's home directory. 
-* Once you run the main.py script, select "layered track", select the number of additional layers on top of the first layer (0-2), and you will be prompted to input the file names of your previously separated .mp3 files.
+* Once you run the main.py script, select "layered track", select the number of additional layers on top of the first layer (1-3), and you will be prompted to input the file names of your previously separated .mp3 files.
 * The script will handle the splitting of all layers, the audio.json, and the .mcfunction file.
 * Follow the steps mentioned above to set up the datapack and resource pack properly.
 * Once this is complete, you can control the layers through these commands:
