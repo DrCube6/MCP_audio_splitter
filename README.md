@@ -1,5 +1,5 @@
 # MCP Audio Splitter
-Minecraft Playsound Audio Splitter is a tool designed to avoid the limitations of Minecraft's playsound command. It allows for dynamic fading and seamless transitions between long audio tracks directly in the game. This is useful for creating dynamic ambient and music tracks. 
+Minecraft Playsound Audio Splitter is a tool designed to avoid the limitations of Minecraft's playsound command. It allows for dynamic fading and seamless transitions between long audio tracks directly in the game. This is useful for creating dynamic ambient and music tracks. Check out an example: https://www.youtube.com/watch?v=sV28Rs7_Kuk
 
 ### Supports
 * Custom fade and hold durations of split tracks.
